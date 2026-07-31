@@ -73,11 +73,3 @@ python3 -m venv venv && source venv/bin/activate
 pip install flask cryptography
 python3 app_styled.py
 ```
-
-## Disclaimer
-
-These apps are intentionally simplified and self-contained for classroom demonstration. The "attacker" scripts only operate against the local demo databases created by these apps — they are not general-purpose security tools and should not be pointed at any system you don't own or have explicit permission to test.
-
-## Course context
-
-Built for **TEB2093 — Computer Security**, as coursework demonstrating security controls and their corresponding threat models.
