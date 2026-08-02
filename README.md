@@ -18,14 +18,12 @@ This repository contains two hands-on demos built for a Computer Security course
 │   ├── totp_display.py            # Simulated authenticator app (prints live OTP)
 │   ├── attacker_bruteforce.py     # Simulates credential stuffing / brute force
 │   ├── attacker_hash_crack.py     # Simulates offline dictionary attack on a stolen hash
-│   ├── start_app.bat              # One-click launcher (Windows)
+│   ├── start.bat              # One-click launcher (Windows)
 │   ├── requirements.txt
-│   └── README.md                  # Full command & scenario walkthrough
 │
 └── database-encryption/
     ├── app_styled.py               # Flask app: add records, authorized view, attacker view
     ├── attacker_attempt.py         # Simulates an attacker with a stolen DB copy
-    └── README.md                   # Full setup guide (encryption demo)
 ```
 
 Each subfolder's README contains the detailed, step-by-step commands for that demo. This top-level README is just the map.
